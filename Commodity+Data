@@ -1,0 +1,76 @@
+COMMODITY: Commodities are all the goods and products which tradeable.
+           They consist of a large group of products like precious metals, industrial metals, energy resources, agricultural products, foodstuffs, raw materials, chemicals, forestry products.
+           The values of commodities are determined by consumers.This means that we can talk about supply and demand.
+           The commodities indicate the material resources and richness of the country to which the commodities belong.The petroleum commodities which have strategic consideration is the best example in this regard.  
+
+COMMODITY MARKET: The products and goods which explained above are traded on the commodity market.
+                  Gold, silver, petroleum, wheat, natural gas, cocoa, corn, cotton are the most invested commodities.It can be traded on time and on demand.
+                  Commodities are the most reliable investments according to others. The reason is that investors can easily think about their future prices as they are used in daily life.
+                  Commodities become investors' favorite investment areas during periods of crisis, chaos and war.
+
+WORLD COMMODITY MARKET: The purchase and sale of commodities were initially made directly face-to-face.
+                        But increased product diversity, supply and demand and the parties' willingness of non-physical trading transactions then commodity investments have moved to the stock exchange. 
+                        There is a large range of products in these stock markets ,which are commodity markets, and products are traded as sub-market transactions of some financial stock exchanges, while products such as energy and gold also have their own specialized stock exchanges.
+                        There are also contracts based commodities other than commodities that can be bought and sold instantly on spot markets. In the spot markets, while the physical buying and selling transactions were mainly concerned, the maturity parameters were added to the contracts in the derivative products market and non-physical buying and selling transactions occurred.
+                        Commodity exchanges concentrated on particular products.
+                        
+Before we concentrate in how commodity market works we should know some specific terms about market that we will also need during the study.
+
+FUTURES COMMODITY MARKET: In this market negotiations are made today, but the obligations will be fulfilled on a certain date set in the future.
+
+FUTURES COMMODITY CONTRACT: They are commodity contracts that require delivery at a certain time in the future.
+
+CONTINUOUS FUTURES CONTRACT: The continuous futures contract consists of several futures contracts brought together to form a long-term chart.The time between these contracts will result in gaps in the chart.Constant data arrangements are made to remove these gaps and create a uniform price range.                            
+
+SPOT MARKET: It is also said cash market. It is used for the short term payment and delivery.
+
+
+HOW COMMODITY MARKET WORKS: The commodity exchange operates according to the exchange rules. So, the logic is: Invest when price is low, sell when price rises.
+              And it need to be known about the physical properties and the factors which affect these physical properties of the commodity to be invested.
+              It is used basic analysis methods to find them but it also should be examined global effects. 
+              All the situations in the world have an impact on the participants of the market and prices fluctuate.
+              In addition to basic analyzes, technical analyzes are also required. Most of technical analyzes in the stock market work on points that may arise in the future by looking at the past situation of prices.
+              Technical analysis methods act with the belief that everything that happened in the past can be experienced in the future and make a situation assessment through certain graphs, indicators and formations.
+              So,when basic and technical analysis methods are used together, estimates can be made on the future formation of commodities.
+              
+
+In this study, we will try to identify the fluctuations on the our commodity data using the analysis methods we have mentioned, and try to explain the reasons for unexpected fluctuations.
+With these analysis, we aim to be able to forecast the future occurrences of the commodity data we work in.  
+
+DATA INFORMATION OF THESIS
+
+The data source of our thesis is https://www.quandl.com/collections/markets/commodities.
+Quandl delivers market data from hundreds of sources via API, or directly into Python, R, Excel and many other tools. 
+
+We have two different commodity datasets: https://www.quandl.com/data/ODA/PBANSOP_USD-Bananas-Price  
+                                          https://www.quandl.com/data/ODA/PCOFFROB_USD-Robusta-Coffee-Price
+
+Banana Price: Consist of 2 columns which are date and value and 450 rows.
+Description:Bananas, Central American and Ecuador, FOB U.S. Ports, US$ per metric ton. 
+Units: US Dollars per Metric Ton. 
+Alternative source to Quandl: This data is sourced from www.opendataforafrica.org/IMFPCP2014Jan where it is offered under an open data licence (www.opendataforafrica.org/legal/termsofuse).
+
+Robusta Coffee Price: Consist of 2 columns which are date and value and 450 rows.
+Description: Coffee, Robusta, International Coffee Organization New York cash price, ex-dock New York, US cents per pound. 
+Units: US cents per Pound. 
+Alternative source to Quandl: This data is sourced from www.opendataforafrica.org/IMFPCP2014Jan where it is offered under an open data licence (www.opendataforafrica.org/legal/termsofuse).
+              
+
+These datasets belong to Core Financial Data in Quandl.
+We will use the R programming language to apply the above-mentioned methods on the data we receive from Quandl.
+
+Datasets in Quandl vary as continuous futures contracts and price datasets. 
+We are going to do our work with datasets with price datasets, as the N/A lines in continuos contract datasets is going to cause some problems during programming, and it is going to be difficult to get accurate results when applying the methods.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
