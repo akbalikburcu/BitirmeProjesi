@@ -50,10 +50,14 @@ Description:Bananas, Central American and Ecuador, FOB U.S. Ports, US$ per metri
 Units: US Dollars per Metric Ton. 
 Alternative source to Quandl: This data is sourced from www.opendataforafrica.org/IMFPCP2014Jan where it is offered under an open data licence (www.opendataforafrica.org/legal/termsofuse).
 
-Robusta Coffee Price: Consist of 2 columns which are date and value and 450 rows.
-Description: Coffee, Robusta, International Coffee Organization New York cash price, ex-dock New York, US cents per pound. 
-Units: US cents per Pound. 
-Alternative source to Quandl: This data is sourced from www.opendataforafrica.org/IMFPCP2014Jan where it is offered under an open data licence (www.opendataforafrica.org/legal/termsofuse).
+Gold Price-London Fixing: Consist of 6 columns which are date and value and 468 rows.
+London Fixings, London Bullion Market Association (LBMA). 
+Fixing levels are set per troy ounce. 
+The London Gold Fixing Companies set the prices for gold that are globally considered as the international standard for pricing of gold. 
+The Gold price in London is set twice a day by five LBMA Market Makers who comprise the London Gold Market Fixing Limited (LGMFL). 
+The process starts with the announcement from the Chairman of the LGMFL to the other members of the LBMA Market Makers, then relayed to the dealing rooms where customers can express their interest as buyers or sellers and also the quantity they wish to trade. 
+The gold fixing price is then set by collating bids and offers until the supply and demand are matched.
+At this point the price is announced as the 'Fixed' price for gold and all business is conducted on the basis of that price.
               
 
 These datasets belong to Core Financial Data in Quandl.
@@ -61,6 +65,35 @@ We will use the R programming language to apply the above-mentioned methods on t
 
 Datasets in Quandl vary as continuous futures contracts and price datasets. 
 We are going to do our work with datasets with price datasets, as the N/A lines in continuos contract datasets is going to cause some problems during programming, and it is going to be difficult to get accurate results when applying the methods.
+
+BANANA MARKET:Bananas are one of the oldest fattening plants and the banana plantation dates back to BC There is evidence that it began in 8000 or earlier. 
+	Bananas are unique to South and Southeast Asia, but are among the most consumed in the world and are most commonly consumed in the United States. 
+	During dearth season, bananas are a valuable food source in many countries.
+	This is particularly important in countries that do not receive the majority of food resources and is also crucial in the global food safety of the banana.
+	Banana is grown in limited areas in the world, produced by developing countries, and has a very wide market area.
+	India is the top of the world for banana production.
+	When we look at the world banana tradition, it is seen that developed countries are importers. 
+	The countries of Europe, Japan and USA are the biggest importer countries. 
+	The share of these countries in the import of world banana is around 65 percent. 
+	North American countries; the customs untaxed and without quota, the Central and South American countries, the European Union countries; Spain and African countries, Japan; It imports bananas from the Philippines and Ecuador.
+	The world keeps bananas exports in a certain number of developing countries. Only South America and the Caribbean countries account for 84 per cent of global export. 
+	Ecuador, Costa Rica, the Philippines and Colombia. Ecuador alone supplies 25 of the exports of corn bananas alone. As a matter of fact, Ecuador and Costa Rica countries account for 17 percent and 23 percent of their total exports, respectively. 
+	On the other hand, countries such as Belgium and France, whose production is very low, re-export the banana they imported.
+	Bananas that can not go out of certain areas of production in the world; it is a product demanded because it is delicious, exotic and nutritious. 
+	However, this limited production can not meet the demand, so the price is rising.
+
+
+
+GOLD MARKET:The gold stocks are corporate markets with a great emphasis on gold history. 
+	In terms of gold's handling of the international arena and the prevention of problems in imports, the gold stock exchange has an important relative. 
+	While investing in gold provides better opportunities than goldsmiths and banks, a stock exchange feature causes the forex market to remain backward.
+	Gold stocks are the markets where gold buyers and sellers come together, where gold is traded in physical or non-physical forms.
+	Due to the high trading volume of gold, the gold stocks have been established as a result of leaving the stock market.
+	Gold futures can be hedged for risk protection, arbitrage and speculation. 
+	Non-physical trading is also an advantage of the gold exchange. 
+	As in the Forex market, non-physical trading facilitates investment transactions. 
+	At the same time, the events of theft that we hear almost every day will be prevented in this way.
+	Gold investment is made with gold certificates, gold joint investment funds, stocks of gold mine companies and gold futures.
 
 
 
